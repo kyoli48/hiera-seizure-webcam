@@ -7,3 +7,8 @@ build/
 dist/
 build.sh
 *.job
+
+
+data/
+gestures/
+hiera-env/
