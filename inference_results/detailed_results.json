@@ -1,0 +1,244 @@
+[
+  {
+    "video_path": "raw_videos/vid_001.mp4",
+    "prediction": 1,
+    "seizure_type": "TCS",
+    "confidence": 0.7880269885063171,
+    "analysis_type": "seizure_segments",
+    "total_seizure_segments": 2,
+    "tcs_segments": 2,
+    "fos_segments": 0,
+    "segment_details": [
+      {
+        "video_path": "raw_videos/vid_001.mp4 (segment 1)",
+        "prediction": 1,
+        "seizure_type": "TCS",
+        "confidence": 0.9895286560058594,
+        "probabilities": {
+          "FOS": 0.010471399873495102,
+          "TCS": 0.9895286560058594
+        },
+        "num_segments_used": 11,
+        "video_length_clips": 44,
+        "seizure_start_time": 132,
+        "seizure_end_time": 138,
+        "seizure_duration": 6,
+        "segment_id": 1
+      },
+      {
+        "video_path": "raw_videos/vid_001.mp4 (segment 2)",
+        "prediction": 1,
+        "seizure_type": "TCS",
+        "confidence": 0.5865253210067749,
+        "probabilities": {
+          "FOS": 0.4134747087955475,
+          "TCS": 0.5865253210067749
+        },
+        "num_segments_used": 8,
+        "video_length_clips": 21,
+        "seizure_start_time": 193,
+        "seizure_end_time": 196,
+        "seizure_duration": 3,
+        "segment_id": 2
+      }
+    ],
+    "seizure_summary": {
+      "total_seizure_time": 9,
+      "avg_segment_confidence": 0.7880269885063171,
+      "segment_predictions": [
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "video_path": "raw_videos/vid_004.mp4",
+    "prediction": 0,
+    "seizure_type": "FOS",
+    "confidence": 0.6822281181812286,
+    "analysis_type": "seizure_segments",
+    "total_seizure_segments": 2,
+    "tcs_segments": 0,
+    "fos_segments": 2,
+    "segment_details": [
+      {
+        "video_path": "raw_videos/vid_004.mp4 (segment 1)",
+        "prediction": 0,
+        "seizure_type": "FOS",
+        "confidence": 0.7901994585990906,
+        "probabilities": {
+          "FOS": 0.7901994585990906,
+          "TCS": 0.20980048179626465
+        },
+        "num_segments_used": 20,
+        "video_length_clips": 104,
+        "seizure_start_time": 117,
+        "seizure_end_time": 131,
+        "seizure_duration": 14,
+        "segment_id": 1
+      },
+      {
+        "video_path": "raw_videos/vid_004.mp4 (segment 2)",
+        "prediction": 0,
+        "seizure_type": "FOS",
+        "confidence": 0.5742567777633667,
+        "probabilities": {
+          "FOS": 0.5742567777633667,
+          "TCS": 0.4257432818412781
+        },
+        "num_segments_used": 11,
+        "video_length_clips": 44,
+        "seizure_start_time": 136,
+        "seizure_end_time": 142,
+        "seizure_duration": 6,
+        "segment_id": 2
+      }
+    ],
+    "seizure_summary": {
+      "total_seizure_time": 20,
+      "avg_segment_confidence": 0.6822281181812286,
+      "segment_predictions": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "video_path": "raw_videos/vid_005.mp4",
+    "prediction": 1,
+    "seizure_type": "TCS",
+    "confidence": 0.9712432622909546,
+    "analysis_type": "seizure_segments",
+    "total_seizure_segments": 1,
+    "tcs_segments": 1,
+    "fos_segments": 0,
+    "segment_details": [
+      {
+        "video_path": "raw_videos/vid_005.mp4 (segment 1)",
+        "prediction": 1,
+        "seizure_type": "TCS",
+        "confidence": 0.9712432622909546,
+        "probabilities": {
+          "FOS": 0.028756722807884216,
+          "TCS": 0.9712432622909546
+        },
+        "num_segments_used": 8,
+        "video_length_clips": 29,
+        "seizure_start_time": 8,
+        "seizure_end_time": 12,
+        "seizure_duration": 4,
+        "segment_id": 1
+      }
+    ],
+    "seizure_summary": {
+      "total_seizure_time": 4,
+      "avg_segment_confidence": 0.9712432622909546,
+      "segment_predictions": [
+        1
+      ]
+    }
+  },
+  {
+    "video_path": "raw_videos/vid_006.mp4",
+    "prediction": 0,
+    "seizure_type": "FOS",
+    "confidence": 0.8464404463768005,
+    "analysis_type": "seizure_segments",
+    "total_seizure_segments": 5,
+    "tcs_segments": 2,
+    "fos_segments": 3,
+    "segment_details": [
+      {
+        "video_path": "raw_videos/vid_006.mp4 (segment 1)",
+        "prediction": 1,
+        "seizure_type": "TCS",
+        "confidence": 0.6747768521308899,
+        "probabilities": {
+          "FOS": 0.3252231478691101,
+          "TCS": 0.6747768521308899
+        },
+        "num_segments_used": 20,
+        "video_length_clips": 104,
+        "seizure_start_time": 65,
+        "seizure_end_time": 79,
+        "seizure_duration": 14,
+        "segment_id": 1
+      },
+      {
+        "video_path": "raw_videos/vid_006.mp4 (segment 2)",
+        "prediction": 0,
+        "seizure_type": "FOS",
+        "confidence": 0.9473893642425537,
+        "probabilities": {
+          "FOS": 0.9473893642425537,
+          "TCS": 0.05261056497693062
+        },
+        "num_segments_used": 12,
+        "video_length_clips": 51,
+        "seizure_start_time": 115,
+        "seizure_end_time": 122,
+        "seizure_duration": 7,
+        "segment_id": 2
+      },
+      {
+        "video_path": "raw_videos/vid_006.mp4 (segment 3)",
+        "prediction": 0,
+        "seizure_type": "FOS",
+        "confidence": 0.9711987376213074,
+        "probabilities": {
+          "FOS": 0.9711987376213074,
+          "TCS": 0.028801267966628075
+        },
+        "num_segments_used": 20,
+        "video_length_clips": 81,
+        "seizure_start_time": 136,
+        "seizure_end_time": 147,
+        "seizure_duration": 11,
+        "segment_id": 3
+      },
+      {
+        "video_path": "raw_videos/vid_006.mp4 (segment 4)",
+        "prediction": 0,
+        "seizure_type": "FOS",
+        "confidence": 0.9934877157211304,
+        "probabilities": {
+          "FOS": 0.9934877157211304,
+          "TCS": 0.006512214429676533
+        },
+        "num_segments_used": 8,
+        "video_length_clips": 21,
+        "seizure_start_time": 159,
+        "seizure_end_time": 162,
+        "seizure_duration": 3,
+        "segment_id": 4
+      },
+      {
+        "video_path": "raw_videos/vid_006.mp4 (segment 5)",
+        "prediction": 1,
+        "seizure_type": "TCS",
+        "confidence": 0.6453495621681213,
+        "probabilities": {
+          "FOS": 0.3546504080295563,
+          "TCS": 0.6453495621681213
+        },
+        "num_segments_used": 20,
+        "video_length_clips": 111,
+        "seizure_start_time": 167,
+        "seizure_end_time": 182,
+        "seizure_duration": 15,
+        "segment_id": 5
+      }
+    ],
+    "seizure_summary": {
+      "total_seizure_time": 50,
+      "avg_segment_confidence": 0.8464404463768005,
+      "segment_predictions": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  }
+]

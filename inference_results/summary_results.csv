@@ -1,0 +1,5 @@
+video_name,prediction,seizure_type,confidence,analysis_type,total_seizure_segments,tcs_segments,fos_segments,total_seizure_time,avg_segment_confidence
+vid_001.mp4,1,TCS,0.7880269885063171,seizure_segments,2,2,0,9,0.7880269885063171
+vid_004.mp4,0,FOS,0.6822281181812286,seizure_segments,2,0,2,20,0.6822281181812286
+vid_005.mp4,1,TCS,0.9712432622909546,seizure_segments,1,1,0,4,0.9712432622909546
+vid_006.mp4,0,FOS,0.8464404463768005,seizure_segments,5,2,3,50,0.8464404463768005
